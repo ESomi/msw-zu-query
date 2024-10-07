@@ -12,10 +12,33 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #ffffff);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #443e38aa;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar div {
+    padding: 1em 2em;
+}
+
+.navbar div:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 @keyframes logo-spin {
