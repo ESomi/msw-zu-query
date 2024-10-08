@@ -1,6 +1,7 @@
 import {factory, primaryKey} from '@mswjs/data'
-import {productsMock} from "@shared/lib/server/index.ts";
+import mockProduct from './__mocks__/products.json'
 
+// products.json 데이터를 직접 사용하여 제품 데이터베이스 구성
 export const db = factory({
   product: {
     id: primaryKey(Number),
@@ -15,12 +16,7 @@ export const db = factory({
   },
 })
 
-export function seedProducts() {
-  productsMock.forEach(product => db.product.create(product))
-}
-
-// 서버가 시작될 때 데이터베이스를 초기화
-seedProducts()
-
+// 제품 데이터를 미리 등록하는 함수
+mockProduct.forEach(product => db.product.create(product))
 
 
