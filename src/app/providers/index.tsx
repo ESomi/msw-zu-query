@@ -1,7 +1,7 @@
 import {createBrowserRouter, Outlet, RouterProvider} from "react-router-dom";
-import Navbar from "../layouts/NavBar.tsx";
-import {Home} from "../../pages/home";
-import {Product} from "../../pages/product";
+import {Product} from "@pages/product";
+import {Home} from "@pages/home";
+import Navbar from "@app/layouts/NavBar.tsx";
 
 const router = createBrowserRouter([
   {
