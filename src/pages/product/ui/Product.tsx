@@ -1,7 +1,10 @@
+import {ProductNewList} from "@widgets/ui/ProductsNewList.tsx";
+
 export const Product = () => {
   return (
-    <div>
-      Product Page
-    </div>
+    <>
+      <h1>What's New</h1>
+      <ProductNewList/>
+    </>
   );
 };

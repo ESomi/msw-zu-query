@@ -1,0 +1,1 @@
+export {handlers as productHandlers} from './api/__mocks__/handlers'
