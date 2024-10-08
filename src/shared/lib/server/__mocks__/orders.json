@@ -1,0 +1,54 @@
+[
+  {
+    "orderId":1,
+    "userId":2,
+    "orderDate":"2024-10-05T14:30:00Z",
+    "totalAmount":119.97,
+    "status":"배송 완료",
+    "items":[
+      {
+        "productId":1,
+        "quantity":1,
+        "price":59.99
+      },
+      {
+        "productId":2,
+        "quantity":3,
+        "price":19.99
+      }
+    ]
+  },
+  {
+    "orderId":2,
+    "userId":1,
+    "orderDate":"2024-10-06T10:15:00Z",
+    "totalAmount":89.98,
+    "status":"처리 중",
+    "items":[
+      {
+        "productId":3,
+        "quantity":1,
+        "price":39.99
+      },
+      {
+        "productId":4,
+        "quantity":1,
+        "price":49.99
+      }
+    ]
+  },
+  {
+    "orderId":3,
+    "userId":3,
+    "orderDate":"2024-10-07T09:45:00Z",
+    "totalAmount":25.99,
+    "status":"배송 준비 중",
+    "items":[
+      {
+        "productId":5,
+        "quantity":1,
+        "price":25.99
+      }
+    ]
+  }
+]";"

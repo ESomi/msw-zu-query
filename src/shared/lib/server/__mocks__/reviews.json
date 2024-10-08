@@ -1,0 +1,37 @@
+[
+  {
+    "reviewId":1,
+    "productId":1,
+    "userId":2,
+    "rating":5,
+    "comment":"이 무선 이어버드는 환상적입니다! 음질과 배터리 수명이 훌륭해요."
+  },
+  {
+    "reviewId":2,
+    "productId":2,
+    "userId":3,
+    "rating":4,
+    "comment":"스마트폰 케이스는 매우 내구성이 있고 딱 맞아요. 하지만 조금 더 스타일리시했으면 좋겠네요."
+  },
+  {
+    "reviewId":3,
+    "productId":3,
+    "userId":1,
+    "rating":3,
+    "comment":"블루투스 스피커는 괜찮지만, 예상했던 것보다 베이스가 강하지 않아요."
+  },
+  {
+    "reviewId":4,
+    "productId":4,
+    "userId":2,
+    "rating":5,
+    "comment":"이 피트니스 트래커로 운동 기록을 관리하기가 정말 편해졌어요. 강력 추천합니다!"
+  },
+  {
+    "reviewId":5,
+    "productId":5,
+    "userId":1,
+    "rating":4,
+    "comment":"좋은 품질의 노트북 스탠드예요. 다만 높이 조절 옵션이 더 다양했으면 좋겠어요."
+  }
+]

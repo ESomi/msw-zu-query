@@ -1,0 +1,41 @@
+[
+  {
+    "userId":1,
+    "username":"sarah_conner",
+    "email":"sarah.conner@example.com",
+    "password":"password123",
+    "address":{
+      "street":"123 Elm Street",
+      "city":"Springfield",
+      "state":"Illinois",
+      "zipcode":"62701",
+      "country":"United States"
+    }
+  },
+  {
+    "userId":2,
+    "username":"john_doe",
+    "email":"john.doe@example.com",
+    "password":"securepass456",
+    "address":{
+      "street":"456 Oak Avenue",
+      "city":"Metropolis",
+      "state":"New York",
+      "zipcode":"10001",
+      "country":"United States"
+    }
+  },
+  {
+    "userId":3,
+    "username":"jane_smith",
+    "email":"jane.smith@example.com",
+    "password":"mypassword789",
+    "address":{
+      "street":"789 Birch Blvd",
+      "city":"Gotham",
+      "state":"New Jersey",
+      "zipcode":"07001",
+      "country":"United States"
+    }
+  }
+]
